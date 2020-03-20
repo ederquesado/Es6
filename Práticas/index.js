@@ -31,3 +31,10 @@ document.getElementById('nome').innerHTML = nome;
 localStorage.removeItem("nome");
  * 
  */
+
+var nome = "Eder";
+var sobrenome = "Quesado";
+var idade = "28";
+
+var eder = `Meu nome eh ${nome} ${sobrenome} e eu tenho ${idade} anos de idade`;
+document.getElementById('nome').innerHTML = eder;
